@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/howold/!svn/ver/2/trunk/HowOld
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/howold/!svn/ver/3/trunk/HowOld/project.properties
+END
+proguard-project.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/howold/!svn/ver/3/trunk/HowOld/proguard-project.txt
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/howold/!svn/ver/4/trunk/HowOld/AndroidManifest.xml
+END
+ic_launcher-web.png
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/howold/!svn/ver/3/trunk/HowOld/ic_launcher-web.png
+END

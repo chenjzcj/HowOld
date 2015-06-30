@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/bt_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="添加图片" />
+
+    <Button
+        android:id="@+id/bt_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/bt_select"
+        android:text="获取信息" />
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bt_send"
+        android:layout_alignBottom="@+id/bt_send"
+        android:layout_marginRight="23dp"
+        android:layout_toLeftOf="@+id/bt_send"
+        android:text=""
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/t4" />
+
+    <FrameLayout
+        android:id="@+id/waitting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:id="@+id/age_and_gender"
+            android:drawableLeft="@drawable/female"
+            android:background="@drawable/hint"
+            android:visibility="invisible"
+            android:text="123"
+            android:textSize="20sp"
+            android:textColor="#ffff00ff"
+            android:gravity="center"/>
+    </FrameLayout>
+
+</RelativeLayout>
